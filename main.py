@@ -13,7 +13,7 @@ hand_detector = HandDetector(maxHands=1)
 startGame = False
 stateResult = False
 winner = ''
-
+abc = 123
 while True:
     background = cv.imread('Resources/BG.png')
     rock = cv.imread('Resources/1.png')
